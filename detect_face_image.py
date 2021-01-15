@@ -48,14 +48,11 @@ thickness = 2
 image = cv2.putText(image, text, org, font, fontScale,  
                  color, thickness, cv2.LINE_AA, False) 
   
-# Using cv2.putText() method 
-#image = cv2.putText(image, text, org, font, fontScale, 
-                  #color, thickness, cv2.LINE_AA, True)  
   
 # Displaying the image 
 cv2.imshow(window_name, image) 
 
 # Display the output
 del(camera)
-#cv2.imshow('img', img)
+
 cv2.waitKey()
